@@ -19,7 +19,7 @@ package streams
 
 import scala.concurrent.duration.Duration
 import cats.effect.kernel._
-import cats.implicits.catsSyntaxOptionId
+import cats.syntax.option._
 import cats.syntax.functor._
 import dev.profunktor.redis4cats.JavaConversions._
 import dev.profunktor.redis4cats.effect.FutureLift
